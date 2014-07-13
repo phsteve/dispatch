@@ -1,0 +1,40 @@
+{
+   "destination_addresses" : [ "256 Ryerson Street, Brooklyn, NY 11205, USA" ],
+   "origin_addresses" : [
+      "456-466 Dekalb Avenue, Brooklyn, NY 11238, USA",
+      "290-292 Gates Avenue, Brooklyn, NY 11216, USA"
+   ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "0.5 km",
+                  "value" : 461
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 48
+               },
+               "status" : "OK"
+            }
+         ]
+      },
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "1.4 km",
+                  "value" : 1403
+               },
+               "duration" : {
+                  "text" : "3 mins",
+                  "value" : 181
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}
