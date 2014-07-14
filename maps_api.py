@@ -17,13 +17,3 @@ def get_distances(distance_matrix):
 def choose_index(distances):
     smallest = min(distances)
     return distances.index(smallest)
-
-
-if __name__ == '__main__':
-    #print foo(['40.690574,-73.958873', '40.685709,-73.955226'], '40.689947,-73.964302')
-    # f = open('test_data.json')
-    # json_resp = json.loads(''.join(f.readlines()))
-    # distances = get_distances(json_resp)
-    # print get_distances(json_resp)
-    lst = [3, 1, 7]
-    print choose_index(lst)

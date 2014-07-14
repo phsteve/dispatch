@@ -1,10 +1,8 @@
 import unittest
 import json
-
 import dispatch
 
-class TestSequenceFunctions(unittest.TestCase):
-
+class TestMapsApi(unittest.TestCase):
     def test_get_distances(self):
         f = open('test_data.json')
         json_resp = json.loads(''.join(f.readlines()))
