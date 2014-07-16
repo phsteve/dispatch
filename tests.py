@@ -17,6 +17,7 @@ class TestSequenceFunctions(unittest.TestCase):
         self.origins = ['1,1', '2,2']
         self.destination = '3,3'
 
+class TestMapsApi(unittest.TestCase):
     def test_get_distances(self):
         distances = self.mock_analyzer.extract_distances(self.origins, self.destination)
         self.assertEquals([48, 181], distances)
